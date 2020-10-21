@@ -15,6 +15,14 @@
 		5A3CEB7C253C74F400E7C56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CEB7A253C74F400E7C56D /* LaunchScreen.storyboard */; };
 		5A3CEB87253C74F500E7C56D /* GithubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEB86253C74F500E7C56D /* GithubTests.swift */; };
 		5A3CEB92253C74F500E7C56D /* GithubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEB91253C74F500E7C56D /* GithubUITests.swift */; };
+		5A3CEBA2253C85B500E7C56D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEBA1253C85B500E7C56D /* Data.swift */; };
+		5A3CEBA4253C89F700E7C56D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEBA3253C89F700E7C56D /* HomeViewController.swift */; };
+		5A3CEBA6253C8E0000E7C56D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEBA5253C8E0000E7C56D /* SearchViewController.swift */; };
+		5A3CEBA8253D413800E7C56D /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEBA7253D413800E7C56D /* SearchTableViewCell.swift */; };
+		5A3CEBAA253D5DBA00E7C56D /* RepoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEBA9253D5DBA00E7C56D /* RepoCollectionViewCell.swift */; };
+		5A3CEBAC253D5F6600E7C56D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CEBAB253D5F6600E7C56D /* 1.jpg */; };
+		5A46251E253D6E5900B20F86 /* item5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A46251D253D6E5900B20F86 /* item5.jpg */; };
+		5A462520253D735600B20F86 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A46251F253D735600B20F86 /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		5A3CEB8D253C74F500E7C56D /* GithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3CEB91253C74F500E7C56D /* GithubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUITests.swift; sourceTree = "<group>"; };
 		5A3CEB93253C74F500E7C56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3CEBA1253C85B500E7C56D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5A3CEBA3253C89F700E7C56D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5A3CEBA5253C8E0000E7C56D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5A3CEBA7253D413800E7C56D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		5A3CEBA9253D5DBA00E7C56D /* RepoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A3CEBAB253D5F6600E7C56D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = "../../CustomTableView-master/CustomTableView/1.jpg"; sourceTree = "<group>"; };
+		5A46251D253D6E5900B20F86 /* item5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = item5.jpg; path = "../../CustomTableView-master/CustomTableView/item5.jpg"; sourceTree = "<group>"; };
+		5A46251F253D735600B20F86 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = ../../../Downloads/star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +115,21 @@
 		5A3CEB6E253C74F200E7C56D /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				5A3CEBAB253D5F6600E7C56D /* 1.jpg */,
+				5A46251D253D6E5900B20F86 /* item5.jpg */,
+				5A46251F253D735600B20F86 /* star.png */,
 				5A3CEB6F253C74F200E7C56D /* AppDelegate.swift */,
 				5A3CEB71253C74F200E7C56D /* SceneDelegate.swift */,
 				5A3CEB73253C74F200E7C56D /* ViewController.swift */,
 				5A3CEB75253C74F200E7C56D /* Main.storyboard */,
+				5A3CEBA3253C89F700E7C56D /* HomeViewController.swift */,
+				5A3CEBA5253C8E0000E7C56D /* SearchViewController.swift */,
+				5A3CEBA7253D413800E7C56D /* SearchTableViewCell.swift */,
+				5A3CEBA9253D5DBA00E7C56D /* RepoCollectionViewCell.swift */,
 				5A3CEB78253C74F400E7C56D /* Assets.xcassets */,
 				5A3CEB7A253C74F400E7C56D /* LaunchScreen.storyboard */,
 				5A3CEB7D253C74F400E7C56D /* Info.plist */,
+				5A3CEBA1253C85B500E7C56D /* Data.swift */,
 			);
 			path = Github;
 			sourceTree = "<group>";
@@ -232,9 +256,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A462520253D735600B20F86 /* star.png in Resources */,
 				5A3CEB7C253C74F400E7C56D /* LaunchScreen.storyboard in Resources */,
 				5A3CEB79253C74F400E7C56D /* Assets.xcassets in Resources */,
+				5A46251E253D6E5900B20F86 /* item5.jpg in Resources */,
 				5A3CEB77253C74F200E7C56D /* Main.storyboard in Resources */,
+				5A3CEBAC253D5F6600E7C56D /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3CEBA6253C8E0000E7C56D /* SearchViewController.swift in Sources */,
+				5A3CEBA4253C89F700E7C56D /* HomeViewController.swift in Sources */,
 				5A3CEB74253C74F200E7C56D /* ViewController.swift in Sources */,
 				5A3CEB70253C74F200E7C56D /* AppDelegate.swift in Sources */,
+				5A3CEBAA253D5DBA00E7C56D /* RepoCollectionViewCell.swift in Sources */,
 				5A3CEB72253C74F200E7C56D /* SceneDelegate.swift in Sources */,
+				5A3CEBA2253C85B500E7C56D /* Data.swift in Sources */,
+				5A3CEBA8253D413800E7C56D /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XC8NZ2X3MD;
 				INFOPLIST_FILE = Github/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XC8NZ2X3MD;
 				INFOPLIST_FILE = Github/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
